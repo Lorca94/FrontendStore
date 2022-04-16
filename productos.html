@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="logotype">
+        </a>
+    </header>
+    
+    <nav class="nav">
+        <a class="nav__link nav__link--active" href="index.html">Tienda</a>
+        <a class="nav__link" href="nosotros.html">Nosotros</a>
+    </nav>
+    
+    <main class="container">
+        <h1>React JS</h1>
+        <div class="shirt">
+            <img class="shirt__img" src="img/3.jpg" alt="imagen_camisa">
+
+            <div class="shirt__content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis odit quasi accusantium tempore dolorem et quam sed laboriosam voluptatibus quidem nesciunt obcaecati rem, voluptatum similique neque animi iusto id vero.
+                </p>
+
+                <form class="form">
+                    <select class="form__default">
+                        <option disabled selected>-- Seleccionar tu talla --</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                    </select>
+                    <input class="form__default" type="number" placeholder="Cantidad" min="1">
+                    <input class="form__submit" type="submit" value="Agregar al carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">Front End Store ~ Todos los derechos reservados 2022</p>
+    </footer>
+</body>
+</html>
